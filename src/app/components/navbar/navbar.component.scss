@@ -1,8 +1,12 @@
+.container-fluid{
+      --bs-gutter-x: 7.5rem;
+
+}
 nav{
   border-bottom: 1px solid #E8E8E8;
   .example-form-field {
     margin-left: 100px;
-  width: 400px; 
+    width: 400px; 
   .mat-form-field {
     width: 100%;
   }
