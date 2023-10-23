@@ -91,6 +91,11 @@
                 </mat-form-field>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <button mat-raised-button>Buscar</button>
+                </div>
+            </div>
          </div>
        </div>
         </div>
@@ -100,15 +105,15 @@
                <div class="tasks-content__header">
                  <h2>Tarefas </h2>
                 <div class="example-button-container">
-                    <button mat-fab color="warn" aria-label="Example icon button with a home icon">
-                    <mat-icon>control_point</mat-icon>
+                    <button>
+                    <mat-icon>add</mat-icon>
                     </button>
                 </div>
                </div>
                <div class="tasks-content__main">
-                <mat-slide-toggle>Comprar Carro {{ dataHoraAtual | date }}</mat-slide-toggle>
-                <mat-slide-toggle>Levar Telefone {{ dataHoraAtual | date }}</mat-slide-toggle>
-                <mat-slide-toggle>Comprar Moto {{ dataHoraAtual | date }}</mat-slide-toggle>
+                <mat-slide-toggle style="background: linear-gradient(to bottom , #FF6357, #FF9187);">Comprar Carro {{ dataHoraAtual | date }}</mat-slide-toggle>
+                <mat-slide-toggle style="background: linear-gradient(to bottom , #5780F6, #84A1F8);">Levar Telefone {{ dataHoraAtual | date }}</mat-slide-toggle>
+                <mat-slide-toggle style="background: linear-gradient(to bottom , #00C3A5, #00C3A5);">Comprar Moto {{ dataHoraAtual | date }}</mat-slide-toggle>
                </div>
             </div>
         </div>

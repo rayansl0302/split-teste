@@ -20,10 +20,11 @@
             background-color: red; 
             color: white; 
             border-radius: 50%; 
-            width: 30px; 
-            height: 30px; 
+            width: 25px; 
+            height: 25px; 
             text-align: center;
-            line-height: 30px; 
+            line-height: 25px; 
+            position: absolute;
         }
     }    
 }
@@ -33,11 +34,19 @@
     border-radius: 15px;
     text-align: center;
     h1{
-        font-size: 12px;
+        font-size: 15px;
         padding-top: 20px;
     }
-    .mat-select{
+    .mat-form-field{
+    }
+    button{
+        background: linear-gradient(to bottom , #3D83DF, #6891BE);
+        font-size: 16px;
+        width: 120px;
+        height: 40px;
         color: #fff;
+        margin-bottom: 15px;
+        border-radius: 25px;
     }
 }
 
@@ -46,12 +55,29 @@
     .tasks-content__header{
         justify-content: space-between;
         display: flex;
-                    text-align: center;
+        text-align: center;
 
         h2{
-                line-height: 50px;
-                margin-left: 30%;
-
+        height: 40px;
+        padding: 20px;
+        border-radius: 50px;
+        max-width: 300px;
+        color: #fff;
+        background: linear-gradient(to bottom , #3D83DF, #3d83df93);
+         line-height: 0px;
+         margin-left: auto;
+         margin-right: auto;
+        }
+        .example-button-container{
+            button{
+                max-width: 38px;
+                height: 40px;
+                line-height: 0px;
+                    background: linear-gradient(to bottom , #FF8321, #ff812196);
+                border: none;
+                color:#fff;
+                border-radius: 50px;
+            }
         }
     }
     .tasks-content__main{
@@ -60,12 +86,11 @@
     flex-direction: column;
     font-size: 14px;
     gap: 15px;
-    .mat-slide-toggle{
 
+    .mat-slide-toggle{
         height: 40px;
-        background-color: #222230c4;
-    padding-left: 20px;
-    border-radius: 50px;
+        padding-left: 20px;
+        border-radius: 50px;
         max-width: 300px;
         color: #fff;
 
