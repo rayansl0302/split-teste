@@ -31,6 +31,7 @@ import { FullCalendarModule } from '@fullcalendar/angular';
 import { ContentMenuComponent } from './components/content-menu/content-menu.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { ModalEventoComponent } from './components/modal-evento/modal-evento.component';
+import { FlychatComponent } from './components/flychat/flychat.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +40,7 @@ import { ModalEventoComponent } from './components/modal-evento/modal-evento.com
     ContentMenuComponent,
     CalendarComponent,
     ModalEventoComponent,
+    FlychatComponent,
   ],
   imports: [
     BrowserModule,

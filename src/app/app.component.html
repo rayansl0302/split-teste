@@ -5,13 +5,14 @@
 
   <mat-drawer-content>
     <button mat-icon-button (click)="toggleDrawer()">
-      <mat-icon>dehaze</mat-icon>
+<mat-icon>swap_horiz</mat-icon>
     </button>
 
-    <div class="container">
       <app-navbar></app-navbar>
+    <div class="container">
       <app-content-menu></app-content-menu>
       <app-calendar></app-calendar>
     </div>
   </mat-drawer-content>
 </mat-drawer-container>
+<app-flychat></app-flychat>

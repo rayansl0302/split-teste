@@ -1,4 +1,5 @@
-.example-form-field {
+nav{
+  .example-form-field {
     margin-left: 100px;
   width: 400px; 
   .mat-form-field {
@@ -13,10 +14,12 @@
     }
   }
 }
+.mat-toolbar{
+  background-color: transparent;
+}
 .nav-item{
     cursor: pointer;
 }
-
 
 .user-info {
   display: flex;
@@ -29,13 +32,16 @@
 
     .nome {
         padding-top: 10px;
-      font-size: 20px;
+      font-size: 16px;
     }
 
     .unidade{
-    font-size: 16px;
+    font-size: 12px;
      margin-top: -15px;
     cursor: pointer;
+    .mat-icon{
+      margin-bottom: -10px;
+    }
     }
 
   }
@@ -65,6 +71,8 @@
 .spacer {
   flex: 1;
 }
+}
+
 @media (max-width: 600px) {
   .example-form-field {
     width: auto;
