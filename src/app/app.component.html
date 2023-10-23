@@ -1,0 +1,17 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side"  [opened]="isDrawerOpen">
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
+
+  <mat-drawer-content>
+    <button mat-icon-button (click)="toggleDrawer()">
+      <mat-icon>dehaze</mat-icon>
+    </button>
+
+    <div class="container">
+      <app-navbar></app-navbar>
+      <app-content-menu></app-content-menu>
+      <app-calendar></app-calendar>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

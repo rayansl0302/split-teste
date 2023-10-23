@@ -1,0 +1,64 @@
+.notifications{
+    display: flex;
+    flex-wrap: wrap;
+    .notifications-item{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        
+        .mat-icon{
+         margin-left: auto;
+         margin-right: auto;
+        }
+    }    
+}
+
+.filtro{
+    background: linear-gradient(to bottom , #FAC095, #f0e5dd);
+    border-radius: 15px;
+    text-align: center;
+    h1{
+        font-size: 20px;
+    }
+    .mat-select{
+        color: #fff;
+    }
+}
+
+.tasks-content{
+
+    .tasks-content__header{
+        justify-content: space-between;
+        display: flex;
+                    text-align: center;
+
+        h2{
+                line-height: 50px;
+                margin-left: 30%;
+
+        }
+    }
+    .tasks-content__main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 20px;
+    padding-top: 15px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+  .notifications{
+        justify-content: space-around;
+
+  }
+  .tasks-content{
+    padding-top: 50px;
+  }
+}

@@ -1,0 +1,17 @@
+<h2 mat-dialog-title>Adicionar Evento</h2>
+<mat-dialog-content>
+  <form>
+    <mat-form-field class="example-full-width">
+      <mat-label>Título do Evento</mat-label>
+      <input matInput [(ngModel)]="evento.title" name="title">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+      <mat-label>Data do Evento</mat-label>
+      <input matInput [(ngModel)]="evento.date" name="date" type="date">
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="evento" cdkFocusInitial>Adicionar</button>
+</mat-dialog-actions>

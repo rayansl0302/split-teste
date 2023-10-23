@@ -1,0 +1,112 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="row">
+           <div class="notifications">
+                <div class="col-md-6">
+                <div class="notifications-item">
+                <mat-icon matBadge="15" matBadgeColor="warn">people</mat-icon>
+                <span>Funcionários </span>
+                </div>
+              <div class="notifications-item">
+                <mat-icon matBadge="6" matBadgeColor="warn">thumb_up</mat-icon>
+                <span>Avaliações </span>
+                 </div> 
+                </div>
+                <div class="col-md-6">
+                <div class="notifications-item">
+                <mat-icon matBadge="13" matBadgeColor="warn">contacts</mat-icon>
+                <span>Clientes </span>
+             </div> 
+             <div class="notifications-item">
+                <mat-icon matBadge="19" matBadgeColor="warn">list_alt</mat-icon>
+                <span>Exames </span>
+             </div>
+                </div>
+            </div>
+             
+            
+            
+           </div>
+        </div>
+      
+        <div class="col-md-6">
+       <div class="filtro">
+         <div class="container">
+             <h1>Procure um profissional:</h1>
+            <div class="row">
+                <div class="col-md-6">
+                <mat-form-field>
+                    <mat-label>Cidade</mat-label>
+                    <mat-select>
+                    <mat-option value="option1">Opção 1</mat-option>
+                    <mat-option value="option2">Opção 2</mat-option>
+                    <mat-option value="option3">Opção 3</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Especialidade</mat-label>
+                    <mat-select>
+                    <mat-option value="option1">Opção 1</mat-option>
+                    <mat-option value="option2">Opção 2</mat-option>
+                    <mat-option value="option3">Opção 3</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Serviço</mat-label>
+                    <mat-select>
+                    <mat-option value="option1">Opção 1</mat-option>
+                    <mat-option value="option2">Opção 2</mat-option>
+                    <mat-option value="option3">Opção 3</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                </div>
+                <div class="col-md-6">
+                <mat-form-field>
+                    <mat-label>Unidade</mat-label>
+                    <mat-select>
+                    <mat-option value="option1">Opção 1</mat-option>
+                    <mat-option value="option2">Opção 2</mat-option>
+                    <mat-option value="option3">Opção 3</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Profissional</mat-label>
+                    <mat-select>
+                    <mat-option value="option1">Opção 1</mat-option>
+                    <mat-option value="option2">Opção 2</mat-option>
+                    <mat-option value="option3">Opção 3</mat-option>
+                    </mat-select>
+                </mat-form-field><mat-form-field>
+                    <mat-label>Exame</mat-label>
+                    <mat-select>
+                    <mat-option value="option1">Opção 1</mat-option>
+                    <mat-option value="option2">Opção 2</mat-option>
+                    <mat-option value="option3">Opção 3</mat-option>
+                    </mat-select>
+                </mat-form-field>
+                </div>
+            </div>
+         </div>
+       </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="tasks-content">
+               <div class="tasks-content__header">
+                 <h2>Tarefas </h2>
+                <div class="example-button-container">
+                    <button mat-fab color="warn" aria-label="Example icon button with a home icon">
+                    <mat-icon>control_point</mat-icon>
+                    </button>
+                </div>
+               </div>
+               <div class="tasks-content__main">
+                <mat-slide-toggle>Comprar Carro {{ dataHoraAtual | date }}</mat-slide-toggle>
+                <mat-slide-toggle>Levar Telefone {{ dataHoraAtual | date }}</mat-slide-toggle>
+                <mat-slide-toggle>Comprar Moto {{ dataHoraAtual | date }}</mat-slide-toggle>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,55 @@
+// Variáveis para as cores
+$primary-color: #FF8321;
+$background-color: #ffffff;
+$text-color: #000000;
+$logo-margin: 10px;
+
+
+
+  .mat-drawer-content .mat-drawer-backdrop .mat-drawer-shown {
+    background-color: transparent !important;
+  }
+
+
+    .menu-content {
+      padding-top: $logo-margin; 
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      margin: 10px 0; 
+
+      .mat-icon {
+        margin-right: 10px;
+      }
+
+      .menu-label {
+        margin-left: 10px;
+      }
+    }
+
+    .last-item {
+      margin-top: 20px;
+    }
+
+    .active {
+      background-color: $primary-color;
+      color: #fff;
+    }
+  
+
+  .mat-drawer-content {
+    background-color: #f4f4f4;
+    flex-grow: 1;
+  }
+
+  .logo-container {
+    text-align: center;
+    margin: $logo-margin 0;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
