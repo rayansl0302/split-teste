@@ -1,7 +1,7 @@
 <mat-drawer-container class="example-container">
   <mat-drawer mode="side"  [opened]="isDrawerOpen">
      <button mat-icon-button (click)="toggleDrawer()">
-<mat-icon>close</mat-icon>
+    <mat-icon>swap_horiz</mat-icon>
     </button>
     <app-sidebar></app-sidebar>
   </mat-drawer>
@@ -10,12 +10,9 @@
     <button mat-icon-button (click)="toggleDrawer()">
     <mat-icon>swap_horiz</mat-icon>
     </button>
-
       <app-navbar></app-navbar>
-    <div class="container">
       <app-content-menu></app-content-menu>
       <app-calendar></app-calendar>
-    </div>
   </mat-drawer-content>
 </mat-drawer-container>
 <div class="container">

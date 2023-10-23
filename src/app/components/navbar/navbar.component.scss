@@ -1,4 +1,5 @@
 nav{
+  border-bottom: 1px solid #E8E8E8;
   .example-form-field {
     margin-left: 100px;
   width: 400px; 
@@ -14,9 +15,11 @@ nav{
     }
   }
 }
+
 .mat-toolbar{
   background-color: transparent;
 }
+
 .nav-item{
     cursor: pointer;
 }
@@ -53,6 +56,7 @@ nav{
      cursor: pointer;
      font-weight: 300;
      color: #676767;
+     font-family: 'Poppins', sans-serif;
     }
 }
      
